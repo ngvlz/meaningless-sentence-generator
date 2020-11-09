@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>Meaningless Sentence Generator</h1>
+        
+        {% if site.logo %}
+          <img src="{{site.logo | relative_url}}" alt="Logo" />
+        {% endif %}
+
+        {% if site.github.is_project_page %}
+        <p class="view"><a href="https://github.com/ngvlz/meaningless-sentence-generator">View the Project on GitHub <small>ngvlz/meaningless-sentence-generator</small></a></p>
+        {% endif %}
+
+        {% if site.github.is_user_page %}
+        <p class="view"><a href="https://github.com/ngvlz">View My GitHub Profile</a></p>
+        {% endif %}
+      <section>
+
+      <h1 id="functionality">Functionality</h1>
+
+<p>Create <strong>x</strong> folders with a file_<strong>x</strong>.txt in each folder respectively.</p>
+
+<p>In each file, randome words will be generated and added together to create meaningless sentences.</p>
+
+<p>This works great when you want to create a bunch of randoms files with random text in them and make them a testing environment for your code!</p>
+
+<p><em>Author</em>: Louis Nguyen</p>
+
+      </section>
+      <footer>
+        {% if site.github.is_project_page %}
+        <p>This project is maintained by <a href="https://github.com/ngvlz">Louis Nguyen</a></p>
+        {% endif %}
+      </footer>
+    </div>
+  </body>
+</html>
