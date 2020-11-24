@@ -38,7 +38,9 @@ def generateStrFileFolder(path, x, extension, length):
     if not os.path.exists(folderPath):
         os.mkdir(folder)
     # open file_x in folder_x to append and read
-    with open(f'{folder}\{file}.{extension}', 'a+') as fileData:
+    # LINUX file tree format uses /
+    # WINDOWS file tree format uses \
+    with open(f'{folder}/{file}.{extension}', 'a+') as fileData:
         counter = 0
         while True:
             # generate random meaningless sentence with a specified *length*
