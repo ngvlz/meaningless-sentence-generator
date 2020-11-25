@@ -31,6 +31,8 @@ cd ./meaningless-sentence-generator
 ### Example
 
 ```bash
+user@localhost:~$ python3 meaningless-sentence-generator.py
+
 Enter the specific path to the desired directory: /home/ngvlz/test_environment
 ```
 
@@ -38,7 +40,7 @@ Enter the specific path to the desired directory: /home/ngvlz/test_environment
 
 You will see the folders and files generated
 
-Bash output would look like this:
+Terminal output would look like this:
 
 ```bash
 folder_1, file_1.txt, and string generated
