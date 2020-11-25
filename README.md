@@ -36,7 +36,9 @@ Enter the specific path to the desired directory: /home/ngvlz/test_environment
 
 ### Result
 
-You will see the folders and files generated and the bash output would look like this:
+You will see the folders and files generated
+
+Bash output would look like this:
 
 ```bash
 folder_1, file_1.txt, and string generated
