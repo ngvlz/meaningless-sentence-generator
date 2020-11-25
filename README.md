@@ -33,7 +33,7 @@ cd ./meaningless-sentence-generator
 ```bash
 user@localhost:~$ python3 meaningless-sentence-generator.py
 
-Enter the specific path to the desired directory: /home/ngvlz/test_environment
+Enter the specific path to the desired directory: /home/user/test_environment
 ```
 
 ### Result
