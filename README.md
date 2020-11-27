@@ -2,9 +2,9 @@
 
 Meaningless Sentence Generator is a tool allowing you to:
 
-* Create **x** folders with a file_**x**.txt in each folder respectively.
+- Create **x** folders with a file\_**x**.txt in each folder respectively.
 
-* In each file, randome words will be generated and added together to create meaningless sentences.
+- In each file, randome words will be generated and added together to create meaningless sentences.
 
 This works great when you want to create a bunch of randoms files with random text in them and make them a testing environment for your code!
 
@@ -14,7 +14,7 @@ This works great when you want to create a bunch of randoms files with random te
 
 ## Requirements
 
-Python 3.8 and above
+Python 3.8
 
 ## Install
 
@@ -58,6 +58,6 @@ folder_9, file_9.txt, and string generated
 
 On line **43** in the meaningless-sentence-generator.py, change the syntax to the following:
 
-* If you are using a LINUX machine use `f'{folder}/{file}.{extension}'`
+- If you are using a LINUX machine use `f'{folder}/{file}.{extension}'`
 
-* If you are using a WINDOWS machine use `f'{folder}\{file}.{extension}'`
+- If you are using a WINDOWS machine use `f'{folder}\{file}.{extension}'`
